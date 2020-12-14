@@ -1,0 +1,6 @@
+15:40:20 **** Incremental Build of configuration Debug for project LPCUSBlib_AudioOutputDevice ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+15:40:20 Build Finished. 0 errors, 0 warnings. (took 187ms)
+

@@ -1,0 +1,47 @@
+15:38:39 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_4337 ****
+make -r all 
+make: Nothing to be done for 'all'.
+15:38:40 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make -r all 
+make: Nothing to be done for 'all'.
+15:38:43 **** Incremental Build of configuration Debug for project LPCUSBlib_AudioOutputDevice ****
+make -r -j4 all 
+Building file: ../example/src/AudioOutputDevice.c
+Building file: ../example/src/Descriptors.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__LPC43XX__ -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -D__MULTICORE_NONE -DDEBUG -D__USE_LPCOPEN -DCORE_M4 -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\lpc_chip_43xx\inc" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\lpc_board_nxp_lpcxpresso_4337\inc" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Core" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Core\DCD\USBRom" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Class\Common" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Class\Device" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -fmerge-constants -fmacro-prefix-map="../example/src/"=. -mcpu=cortex-m4 -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"example/src/AudioOutputDevice.d" -MT"example/src/AudioOutputDevice.o" -MT"example/src/AudioOutputDevice.d" -o "example/src/AudioOutputDevice.o" "../example/src/AudioOutputDevice.c"
+arm-none-eabi-gcc -D__LPC43XX__ -DUSB_DEVICE_ONLY -D__REDLIB__ -D__CODE_RED -D__MULTICORE_NONE -DDEBUG -D__USE_LPCOPEN -DCORE_M4 -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\lpc_chip_43xx\inc" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\lpc_board_nxp_lpcxpresso_4337\inc" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Core" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Core\DCD\USBRom" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Class\Common" -I"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\LPCUSBlib_AudioOutputDevice\lpcusblib\Drivers\USB\Class\Device" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -std=gnu99 -fmerge-constants -fmacro-prefix-map="../example/src/"=. -mcpu=cortex-m4 -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"example/src/Descriptors.d" -MT"example/src/Descriptors.o" -MT"example/src/Descriptors.d" -o "example/src/Descriptors.o" "../example/src/Descriptors.c"
+Finished building: ../example/src/Descriptors.c
+Finished building: ../example/src/AudioOutputDevice.c
+ 
+ 
+Building target: LPCUSBlib_AudioOutputDevice.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\lpc_chip_43xx\Debug" -L"C:\Users\Jim\development\MCUXpressoIDE_11.2.1_4149\lpcopen_3_02\lpc_board_nxp_lpcxpresso_4337\Debug" -Xlinker -Map="LPCUSBlib_AudioOutputDevice.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mthumb -T "LPCUSBlib_AudioOutputDevice_Debug.ld" -o "LPCUSBlib_AudioOutputDevice.axf"  ./lpcusblib/Drivers/USB/Core/HCD/OHCI/OHCI.o  ./lpcusblib/Drivers/USB/Core/HCD/EHCI/EHCI.o  ./lpcusblib/Drivers/USB/Core/HCD/HCD.o  ./lpcusblib/Drivers/USB/Core/HAL/LPC18XX/HAL_LPC18xx.o  ./lpcusblib/Drivers/USB/Core/HAL/LPC17XX/HAL_LPC17xx.o  ./lpcusblib/Drivers/USB/Core/HAL/LPC11UXX/HAL_LPC11Uxx.o  ./lpcusblib/Drivers/USB/Core/DCD/USBRom/usbd_adcuser.o ./lpcusblib/Drivers/USB/Core/DCD/USBRom/usbd_cdc.o ./lpcusblib/Drivers/USB/Core/DCD/USBRom/usbd_hid.o ./lpcusblib/Drivers/USB/Core/DCD/USBRom/usbd_msc.o ./lpcusblib/Drivers/USB/Core/DCD/USBRom/usbd_rom.o  ./lpcusblib/Drivers/USB/Core/DCD/LPC18XX/Endpoint_LPC18xx.o  ./lpcusblib/Drivers/USB/Core/DCD/LPC17XX/Endpoint_LPC17xx.o  ./lpcusblib/Drivers/USB/Core/DCD/LPC11UXX/Endpoint_LPC11Uxx.o  ./lpcusblib/Drivers/USB/Core/ConfigDescriptor.o ./lpcusblib/Drivers/USB/Core/Device.o ./lpcusblib/Drivers/USB/Core/DeviceStandardReq.o ./lpcusblib/Drivers/USB/Core/Endpoint.o ./lpcusblib/Drivers/USB/Core/EndpointStream.o ./lpcusblib/Drivers/USB/Core/Events.o ./lpcusblib/Drivers/USB/Core/Host.o ./lpcusblib/Drivers/USB/Core/HostStandardReq.o ./lpcusblib/Drivers/USB/Core/Pipe.o ./lpcusblib/Drivers/USB/Core/PipeStream.o ./lpcusblib/Drivers/USB/Core/USBController.o ./lpcusblib/Drivers/USB/Core/USBMemory.o ./lpcusblib/Drivers/USB/Core/USBTask.o  ./lpcusblib/Drivers/USB/Class/Host/AudioClassHost.o ./lpcusblib/Drivers/USB/Class/Host/CDCClassHost.o ./lpcusblib/Drivers/USB/Class/Host/HIDClassHost.o ./lpcusblib/Drivers/USB/Class/Host/MIDIClassHost.o ./lpcusblib/Drivers/USB/Class/Host/MassStorageClassHost.o ./lpcusblib/Drivers/USB/Class/Host/PrinterClassHost.o ./lpcusblib/Drivers/USB/Class/Host/RNDISClassHost.o ./lpcusblib/Drivers/USB/Class/Host/StillImageClassHost.o  ./lpcusblib/Drivers/USB/Class/Device/AudioClassDevice.o ./lpcusblib/Drivers/USB/Class/Device/CDCClassDevice.o ./lpcusblib/Drivers/USB/Class/Device/HIDClassDevice.o ./lpcusblib/Drivers/USB/Class/Device/MIDIClassDevice.o ./lpcusblib/Drivers/USB/Class/Device/MassStorageClassDevice.o ./lpcusblib/Drivers/USB/Class/Device/RNDISClassDevice.o  ./lpcusblib/Drivers/USB/Class/Common/HIDParser.o  ./example/src/AudioOutputDevice.o ./example/src/Descriptors.o ./example/src/UsbRom.o ./example/src/cr_startup_lpc43xx.o ./example/src/sysinit.o   -llpc_board_nxp_lpcxpresso_4337 -llpc_chip_43xx
+Finished building target: LPCUSBlib_AudioOutputDevice.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "LPCUSBlib_AudioOutputDevice.axf"; # arm-none-eabi-objcopy -v -O binary "LPCUSBlib_AudioOutputDevice.axf" "LPCUSBlib_AudioOutputDevice.bin" ; # checksum -p LPC4337 -d "LPCUSBlib_AudioOutputDevice.bin";
+   text	   data	    bss	    dec	    hex	filename
+  31416	    320	  12056	  43792	   ab10	LPCUSBlib_AudioOutputDevice.axf
+ 
+15:39:31 **** Incremental Build of configuration Debug for project LPCUSBlib_AudioOutputDevice ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+15:40:01 **** Incremental Build of configuration Debug for project LPCUSBlib_AudioOutputDevice ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+15:40:15 **** Incremental Build of configuration Debug for project lpc_board_nxp_lpcxpresso_4337 ****
+make -r all 
+make: Nothing to be done for 'all'.
+15:40:15 **** Incremental Build of configuration Debug for project lpc_chip_43xx ****
+make -r all 
+make: Nothing to be done for 'all'.
+15:40:17 **** Incremental Build of configuration Debug for project LPCUSBlib_AudioOutputDevice ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+15:40:20 **** Incremental Build of configuration Debug for project LPCUSBlib_AudioOutputDevice ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
