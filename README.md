@@ -1,4 +1,4 @@
-# NXP Audio 2.0 Driver to I2S Example
+# NXP Audio 2.0 Driver to I2S Speakers
 
 ![alt text](images/LPCXpresso43S67_setup.jpg?raw=true "Setup")
 
@@ -16,7 +16,7 @@ You will need to download and install the latest version of MCUXpresso IDE from 
 
 ## Test Setup
 
-The following table lists the wiring required for this setup.   For reference, I'v included the color of the hookup wires that I used in the photo above to connect the LPCXpresso43S67 to the Audio Breakout board.  Please be aware that the two SparkFun I2S Audio Brakout boards are wired in parallel. 
+The following table lists the wiring required for this setup.   For reference, I'v included the color of the hookup wires that I used to connect the LPCXpresso43S67 to the Audio Breakout board in the photo above.  Please be aware that the two SparkFun I2S Audio Breakout boards are wired in parallel. 
 
 LPCXpresso43S67 | Audio Breakout | Hookup Wire Color
 --------------- | -------------- | -----------------
