@@ -16,16 +16,16 @@ You will need to download and install the latest version of MCUXpresso IDE from 
 
 ## Test Setup
 
-The following table lists the wiring required for this setup.   For reference, I'v included the color of the hookup wires that I used in the photo above.  Please be aware that the two SparkFun I2S Audio Brakout boards are wired in parallel. 
+The following table lists the wiring required for this setup.   For reference, I'v included the color of the hookup wires that I used in the photo above to connect the LPCXpresso43S67 to the Audio Breakout board.  Please be aware that the two SparkFun I2S Audio Brakout boards are wired in parallel. 
 
-LPCxpresso43S67 | Audio Breakout | Hookup Wire Color
+LPCXpresso43S67 | Audio Breakout | Hookup Wire Color
 --------------- | -------------- | -----------------
 J3-4 | BCLK | Green
 J3-5 | GND | Black
 J3-7 | SD_ | White
 J3-8 | DIN | Blue
 J3-12 | 2.2V/5.5V | Red
-J1-6 | LRCLK | Yellow
+J1-12 | LRCLK | Yellow
 
 ## Compiling and Running the Example Program
 
