@@ -1,4 +1,4 @@
-# NXP Audio 2.0 Driver to I2S Speakers
+# NXP UAC Audio 2.0 Driver to I2S Speakers
 
 ![alt text](images/LPCXpresso43S67_setup.jpg?raw=true "Setup")
 
