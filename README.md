@@ -4,7 +4,7 @@
 
 This repository contains a UAC Audio 2.0 driver for the NXP LCP43S00 series of processors.  As shown, this driver is working as a USB Speaker.  
 
-This repository started out with the NXP Audio driver that only supported Audio 1.0 standard.  This driver has been updated to support the Audio 2.0 standard.  What this means is that instead of data being transferred in USB fast mode, the data will be transferred in USB high speed mode meaning a greater data bandwidth is possible.  This is just a proto-type in that all features of the Audio 2.0 standard may not be supported.  I've only implemented and have tested what was needed to support the USB device as speakers.
+This repository started out with the NXP UAC Audio driver that only supported Audio 1.0 standard.  This driver has been updated to support the UAC Audio 2.0 standard.  What this means is that instead of data being transferred in USB fast mode, the data will be transferred in USB high speed mode meaning a greater data bandwidth is possible.  This is just a proto-type in that all features of the Audio 2.0 standard may not be supported.  I've only implemented and have tested what was needed to support the USB device as speakers.
 
 ## Required Hardware
 
